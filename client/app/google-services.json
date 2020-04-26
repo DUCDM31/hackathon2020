@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "644689397221",
+    "firebase_url": "https://anna-vooc-hackathhon.firebaseio.com",
+    "project_id": "anna-vooc-hackathhon",
+    "storage_bucket": "anna-vooc-hackathhon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644689397221:android:fa5d457ebd7ab5e04edb0c",
+        "android_client_info": {
+          "package_name": "com.hiepdt.annavoochackathhon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644689397221-5a14l9etok8vsnu18eds6gauavblpk69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hiepdt.annavoochackathhon",
+            "certificate_hash": "a154951ec5f9836c6e0d1ea20b98a8dbea22da3a"
+          }
+        },
+        {
+          "client_id": "644689397221-sff9kmfmad71bko3taac3tkamo7tp7r6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArvSo2NtfS977lvUazQ_iHRwvHYA_MWfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644689397221-sff9kmfmad71bko3taac3tkamo7tp7r6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

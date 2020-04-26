@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/corner_item"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="80dp"
+            android:textColor="#232323"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/circular_bold"
+            android:maxLines="1"
+            android:text="Bệnh viện ABC"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/circular_medium"
+            android:maxLines="1"
+            android:text="12 Phố Hàng Gai, Hoàn Kiếm, Hà Nội"
+            android:textSize="8dp"
+            android:textColor="#232323" />
+
+
+        <TextView
+            android:id="@+id/open"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/circular_book"
+            android:maxLines="1"
+            android:text="08:00 AM - 20:00 PM"
+            android:textSize="6dp" />
+    </LinearLayout>
+
+</LinearLayout>

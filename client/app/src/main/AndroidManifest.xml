@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hiepdt.annavoochackathon">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/map_key"/>
+        <activity android:name=".converse.suggest.SuggestActivity" />
+        <activity android:name=".converse.SupportActivity" />
+        <activity android:name=".converse.OptionActivity" />
+        <activity android:name=".community.NewsActivity" />
+        <activity android:name=".community.inbox.InboxActivity" />
+        <activity android:name=".community.PostingActivity" />
+        <activity android:name=".login.InfoActivity" />
+        <activity android:name=".intro.IntroduceActivity" />
+        <activity android:name=".login.LoginActivity" />
+        <activity android:name=".login.LoginSuccessActivity" />
+        <activity android:name=".login.VerifyActivity" />
+        <activity android:name=".main.MainActivity" />
+        <activity android:name=".community.messenger.MessageActivity" />
+        <activity android:name=".login.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

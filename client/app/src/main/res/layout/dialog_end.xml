@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="-20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/end" />
+
+    <TextView
+        android:layout_marginTop="-20dp"
+        android:paddingHorizontal="70dp"
+        android:gravity="center"
+        android:textColor="#232323"
+        android:fontFamily="@font/circular_bold"
+        android:text="Bạn có muốn kết thúc cuộc trò chuyện?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_marginHorizontal="60dp"
+        android:fontFamily="@font/circular_book"
+        android:gravity="center"
+        android:maxLines="2"
+        android:textSize="12dp"
+        android:text="Bạn vẫn có thể tùy chỉnh trước khi đăng lên cộng đồng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_unselect"
+            android:fontFamily="@font/circular_medium"
+            
+            android:text="Quay lại"
+            android:textColor="@color/start_color"/>
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_marginLeft="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_select"
+            android:fontFamily="@font/circular_medium"
+            
+            android:textColor="#fff"
+            android:text="Đồng ý"/>
+    </LinearLayout>
+</LinearLayout>

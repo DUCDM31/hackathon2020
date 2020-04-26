@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    android:padding="20dp"
+    android:orientation="vertical">
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/mViewPager"
+        android:layout_above="@id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:id="@+id/swipe"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="50dp">
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/circleIndi"
+            android:gravity="center"
+            android:layout_width="120dp"
+            app:ci_width="8dp"
+            app:ci_height="8dp"
+            android:layout_height="match_parent"
+            app:ci_drawable="@drawable/corner_button_selected"
+            app:ci_drawable_unselected="@drawable/circle_unselect" />
+        <TextView
+            android:id="@+id/tvSkip"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bỏ qua"
+            android:textSize="12sp"
+            android:textColor="@color/start_color"
+            android:fontFamily="@font/circular_medium" />
+    </RelativeLayout>
+
+</RelativeLayout>
