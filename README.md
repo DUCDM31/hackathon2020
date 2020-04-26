@@ -1,1 +1,2 @@
-# hackathon2020
+# hackcovy2020
+
